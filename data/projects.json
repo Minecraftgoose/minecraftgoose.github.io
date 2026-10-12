@@ -1,8 +1,25 @@
 {
   "user": "Minecraftgoose",
-  "generatedAt": "2026-10-11T15:58:16.256Z",
+  "generatedAt": "2026-10-12T10:07:35.546Z",
   "count": 27,
   "projects": [
+    {
+      "id": "Minecraftgoose",
+      "title": "Minecraftgoose",
+      "description": "",
+      "url": "https://github.com/Minecraftgoose/Minecraftgoose",
+      "homepage": "",
+      "coverUrl": "",
+      "language": "",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "branch": "main",
+      "updatedAt": "2026-10-12T05:15:51Z",
+      "featured": false,
+      "readme": "<p align=\"center\">\n<img src=\"https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=你好啊&reversal=false&textBg=false&animation=scaleIn&desc=I%20am%20Minecraft_goose&descAlign=50&descAlignY=71&descSize=30\" />\n</p>\n<p align=\"center\">\n<img src=\"typing.svg\" width=\"600\" alt=\"typing animation\" />\n<br>\n<img width=\"800\" src=\"dist/github-contribution-grid-snake-dark.svg\" />\n<img width=\"800\" src=\"profile-3d-contrib/profile-night-rainbow.svg\" />\n<br/>\n<img align=\"center\" width=\"400\" src=\"https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Minecraftgoose&theme=github_dark\" />\n<br/></p>\n  \n---\n\n<p align=\"center\">\n<img align=\"center\" src=\"https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,py\" />\n</p>\n<p align=\"center\">\n<img src=\"https://komarev.com/ghpvc/?username=Minecraftgoose&label=Profile%20Views\" />\n</p>\n",
+      "readmePath": "README.md"
+    },
     {
       "id": "minecraftgoose.github.io",
       "title": "minecraftgoose.github.io",
@@ -15,7 +32,7 @@
       "forks": 0,
       "topics": [],
       "branch": "main",
-      "updatedAt": "2026-10-11T15:58:08Z",
+      "updatedAt": "2026-10-11T15:58:20Z",
       "featured": false,
       "readme": "",
       "readmePath": ""
@@ -55,23 +72,6 @@
       "updatedAt": "2026-10-11T09:40:05Z",
       "featured": false,
       "readme": "# kimi小圆球\n\n一个会自己东张西望的小Kimi，住在你的桌面上。\n\n---\n\n<div align=\"center\"><img src=\"https://workspace-zb-cdn.qianwen.com/38d4e383eaaa4ba2b5b85683e7e54acc%2Fo%2F1791706079028-c.png?auth_key=1823244840-0-0-b41023e26e966ecc516e5791bcc45274\" alt=\"小球图片\" width=\"auto\" /></div>\n\n## 下载\n\n到 [Releases](https://github.com/Minecraftgoose/kimi-pet/releases) 取最新的 `KimiPet-vX.Y.Z.zip`，里面有：\n\n| 文件 | 说明 |\n|---|---|\n| `KimiPet_x64.exe` | 64 位系统用这个 |\n| `KimiPet_x86.exe` | 32 位系统用这个 |\n\n\n## 怎么玩\n\n| 操作 | 效果 |\n|---|---|\n| 左键拖动 | 挪位置 |\n| 左键单击 | 逗它，它会鼓一下 |\n| 连点 5 次 | 它生气了，眯着眼瞪你几秒 |\n| 滚轮停在球上 | 调大小，每档 ±12%，60px ~ 420px 无级 |\n| 右键 | 菜单：颜色 / 始终置顶 / 跟随鼠标 / 开机自启 / 球大小 / 重新居中 / 关于 / 退出 |\n\n### 换颜色\n\n右键菜单 → **颜色**：\n\n淡蓝（默认）· 天蓝 · 靛蓝 · 紫 · 青 · 绿 · 粉 · 橙\n\n选中的颜色记在 `HKCU\\Software\\KimiPet\\Hue`。\n\n球大小记在 `HKCU\\Software\\KimiPet\\BallSize`。\n\n<div align=\"center\"><img src=\"https://workspace-zb-cdn.qianwen.com/e1858eb497c44dfcbd60e36d9d659c1c%2Fo%2F1791707183835-c.png?auth_key=1823245860-0-0-8a60a55eb95fb7b84f8937a5a77ddb87\" alt=\"颜色\" width=\"auto\" /></div>\n\n## 大屏幕 / 高 DPI\n\n已适配，可用于希沃白板\n\n## 自己编译\n\n```bash\n# Linux （需 mingw-w64）\nsudo apt install mingw-w64      \nsh build.sh\n\n# Windows（需 MinGW-w64：MSYS2 的 mingw64 shell 或 w64devkit）\nbuild.bat\n```\n\n\n## 想改外观？\n\n所有参数集中在 [`pet.c`](pet.c) 上方的配置区，改完重新编译即可：\n\n| 参数 | 作用 |\n|---|---|\n| `bodySize` `baseW` `eyeAspect` `eyeGap` `eyeY` | 眼睛形状、大小与间距 |\n| `eyeMove` `turnK` `roll` | 眼球转动幅度与球面倾斜感 |\n| `pressPop` `jellyK` `jellyMax` | 点击时的鼓起与果冻形变 |\n| `angryLid` `lidSlant` | 生气时的眯眼程度与斜切角度 |\n| `blink` `jitter` `speed` | 眨眼频率、眼神抖动、追随速度 |\n| `g_skin[]` / `HUES[]` | 球体五层配色与 8 色预设的色相 |\n| `HUE_S` `HUE_L` | 预设色的默认饱和度与明度 |\n| `D_MIN` `D_MAX` `PRESET[]` | 可调节的球大小范围与菜单档位 |\n\n\n## 目录约定\n\n遵循 `AGENTS.md`\n\n## 许可\n\n[MIT](LICENSE) © 2026 Minecraftgoose\n",
-      "readmePath": "README.md"
-    },
-    {
-      "id": "Minecraftgoose",
-      "title": "Minecraftgoose",
-      "description": "",
-      "url": "https://github.com/Minecraftgoose/Minecraftgoose",
-      "homepage": "",
-      "coverUrl": "",
-      "language": "",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "branch": "main",
-      "updatedAt": "2026-10-11T08:47:11Z",
-      "featured": false,
-      "readme": "<p align=\"center\">\n<img src=\"https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=你好啊&reversal=false&textBg=false&animation=scaleIn&desc=I%20am%20Minecraft_goose&descAlign=50&descAlignY=71&descSize=30\" />\n</p>\n<p align=\"center\">\n<img src=\"typing.svg\" width=\"600\" alt=\"typing animation\" />\n<br>\n<img width=\"800\" src=\"dist/github-contribution-grid-snake-dark.svg\" />\n<img width=\"800\" src=\"profile-3d-contrib/profile-night-rainbow.svg\" />\n<br/>\n<img align=\"center\" width=\"400\" src=\"https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Minecraftgoose&theme=github_dark\" />\n<br/></p>\n  \n---\n\n<p align=\"center\">\n<img align=\"center\" src=\"https://go-skill-icons.vercel.app/api/icons?i=html,css,js,ts,py\" />\n</p>\n<p align=\"center\">\n<img src=\"https://komarev.com/ghpvc/?username=Minecraftgoose&label=Profile%20Views\" />\n</p>\n",
       "readmePath": "README.md"
     },
     {
